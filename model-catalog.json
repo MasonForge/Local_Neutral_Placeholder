@@ -21,24 +21,6 @@
       "description": "Lightweight instruction model for general chat and document lookup."
     },
     {
-      "id": "mistral-nemo-12b-instruct-q4-k-m",
-      "name": "Mistral Nemo 12B Instruct (Q4_K_M)",
-      "publisher": "Mistral + NVIDIA",
-      "parameters": "12B",
-      "license": "Apache-2.0",
-      "gated": false,
-      "tasks": ["general", "chat", "coding"],
-      "download_url": "https://huggingface.co/bartowski/Mistral-Nemo-Instruct-v1-GGUF/resolve/main/Mistral-Nemo-Instruct-v1-Q4_K_M.gguf",
-      "host_url": "https://huggingface.co/bartowski/Mistral-Nemo-Instruct-v1-GGUF",
-      "file_name": "Mistral-Nemo-Instruct-v1-Q4_K_M.gguf",
-      "size_bytes": null,
-      "release_date": "2024-11-15",
-      "min_ram_gb": 16,
-      "min_vram_gb": 8,
-      "requires_gpu": false,
-      "description": "Stronger reasoning and coding with moderate hardware requirements."
-    },
-    {
       "id": "qwen-2.5-32b-instruct-q4-k-m",
       "name": "Qwen 2.5 32B Instruct (Q4_K_M)",
       "publisher": "Alibaba",
