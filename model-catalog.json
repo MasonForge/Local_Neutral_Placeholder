@@ -1,5 +1,28 @@
 {
   "schema_version": 1,
-  "updated_utc": "2025-12-29T00:00:00Z",
-  "entries": []
+  "updated_utc": "2025-12-29T02:15:00Z",
+  "entries": [
+    {
+      "id": "llama-3.2-3b-instruct-gguf",
+      "name": "Llama 3.2 3B Instruct",
+      "publisher": "Meta",
+      "task": "chat",
+      "size_class": "3B",
+      "description": "Fast small instruct model. Good for doc-reader and general chat on CPU/GPU.",
+      "license": "Llama 3.2 Community License",
+      "tags": ["recommended", "beginner", "chat"],
+      "links": {
+        "model_page": "https://huggingface.co/...",
+        "gguf_files": [
+          {
+            "label": "Q4_K_M (recommended)",
+            "quant": "Q4_K_M",
+            "size_mb": 2200,
+            "sha256": "",
+            "url": "https://huggingface.co/.../resolve/main/....gguf"
+          }
+        ]
+      }
+    }
+  ]
 }
