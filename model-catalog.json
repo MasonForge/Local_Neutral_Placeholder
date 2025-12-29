@@ -1,28 +1,78 @@
 {
-  "schema_version": 1,
-  "updated_utc": "2025-12-29T02:15:00Z",
-  "entries": [
+  "version": 1,
+  "last_updated": "2025-12-27",
+  "models": [
     {
-      "id": "llama-3.2-3b-instruct-gguf",
-      "name": "Llama 3.2 3B Instruct",
+      "id": "llama-3.2-3b-instruct-q4-k-m",
+      "name": "Llama 3.2 3B Instruct (Q4_K_M)",
       "publisher": "Meta",
-      "task": "chat",
-      "size_class": "3B",
-      "description": "Fast small instruct model. Good for doc-reader and general chat on CPU/GPU.",
-      "license": "Llama 3.2 Community License",
-      "tags": ["recommended", "beginner", "chat"],
-      "links": {
-        "model_page": "https://huggingface.co/...",
-        "gguf_files": [
-          {
-            "label": "Q4_K_M (recommended)",
-            "quant": "Q4_K_M",
-            "size_mb": 2200,
-            "sha256": "",
-            "url": "https://huggingface.co/.../resolve/main/....gguf"
-          }
-        ]
-      }
+      "parameters": "3B",
+      "license": "Meta Llama 3.2 Community License",
+      "gated": false,
+      "tasks": ["general", "chat"],
+      "download_url": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "host_url": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "file_name": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "size_bytes": null,
+      "release_date": "2024-09-25",
+      "min_ram_gb": 8,
+      "min_vram_gb": 0,
+      "requires_gpu": false,
+      "description": "Lightweight instruction model for general chat and document lookup."
+    },
+    {
+      "id": "mistral-nemo-12b-instruct-q4-k-m",
+      "name": "Mistral Nemo 12B Instruct (Q4_K_M)",
+      "publisher": "Mistral + NVIDIA",
+      "parameters": "12B",
+      "license": "Apache-2.0",
+      "gated": false,
+      "tasks": ["general", "chat", "coding"],
+      "download_url": "https://huggingface.co/bartowski/Mistral-Nemo-Instruct-v1-GGUF/resolve/main/Mistral-Nemo-Instruct-v1-Q4_K_M.gguf",
+      "host_url": "https://huggingface.co/bartowski/Mistral-Nemo-Instruct-v1-GGUF",
+      "file_name": "Mistral-Nemo-Instruct-v1-Q4_K_M.gguf",
+      "size_bytes": null,
+      "release_date": "2024-11-15",
+      "min_ram_gb": 16,
+      "min_vram_gb": 8,
+      "requires_gpu": false,
+      "description": "Stronger reasoning and coding with moderate hardware requirements."
+    },
+    {
+      "id": "qwen-2.5-32b-instruct-q4-k-m",
+      "name": "Qwen 2.5 32B Instruct (Q4_K_M)",
+      "publisher": "Alibaba",
+      "parameters": "32B",
+      "license": "Apache-2.0",
+      "gated": false,
+      "tasks": ["general", "coding", "long-context"],
+      "download_url": "https://huggingface.co/bartowski/Qwen2.5-32B-Instruct-GGUF/resolve/main/Qwen2.5-32B-Instruct-Q4_K_M.gguf",
+      "host_url": "https://huggingface.co/bartowski/Qwen2.5-32B-Instruct-GGUF",
+      "file_name": "Qwen2.5-32B-Instruct-Q4_K_M.gguf",
+      "size_bytes": null,
+      "release_date": "2024-10-20",
+      "min_ram_gb": 32,
+      "min_vram_gb": 16,
+      "requires_gpu": true,
+      "description": "High-capacity model for complex reasoning and long-context tasks."
+    },
+    {
+      "id": "llama-3.3-70b-instruct-q3-k-m",
+      "name": "Llama 3.3 70B Instruct (Q3_K_M)",
+      "publisher": "Meta",
+      "parameters": "70B",
+      "license": "Meta Llama 3.3 Community License",
+      "gated": true,
+      "tasks": ["general", "coding", "long-context"],
+      "download_url": "https://huggingface.co/bartowski/Llama-3.3-70B-Instruct-GGUF/resolve/main/Llama-3.3-70B-Instruct-Q3_K_M.gguf",
+      "host_url": "https://huggingface.co/bartowski/Llama-3.3-70B-Instruct-GGUF",
+      "file_name": "Llama-3.3-70B-Instruct-Q3_K_M.gguf",
+      "size_bytes": null,
+      "release_date": "2024-12-10",
+      "min_ram_gb": 64,
+      "min_vram_gb": 24,
+      "requires_gpu": true,
+      "description": "Large gated model requiring license acceptance on the host."
     }
   ]
 }
