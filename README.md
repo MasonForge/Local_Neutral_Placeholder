@@ -1,2 +1,2 @@
-# Local_Nuetral_Placeholder
-Local_Nuetral_Placeholder
+# Local_Neutral_Placeholder
+Local_Neutral_Placeholder
