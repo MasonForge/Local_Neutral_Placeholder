@@ -1,2 +1,2 @@
-# localcortexstudio-site
-Local Cortex Studio
+# Local_Nuetral_Placeholder
+Local_Nuetral_Placeholder
